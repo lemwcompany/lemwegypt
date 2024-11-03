@@ -1,0 +1,139 @@
+/* تنسيقات عامة */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* الشريط العلوي */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.company-name {
+    color: #ff6600;
+    margin-left: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* قسم الترحيب */
+.welcome-section {
+    height: 400px;
+    background-image: url('2.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    text-align: center;
+}
+
+/* قسم من نحن */
+.about-us {
+    padding: 40px;
+    background-color: #333;
+    text-align: center;
+}
+
+.managers {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.manager {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* قسم الخدمات */
+.supplements-section, .cars-section {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.supplements-section {
+    background-image: url('3.jpg');
+}
+
+.cars-section {
+    background-image: url('5.jpg');
+}
+
+/* الزر */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff3300;
+    transform: scale(1.05);
+}
+
+/* قسم المشاريع */
+.projects {
+    padding: 40px;
+    background-color: #222;
+    text-align: center;
+}
+
+.project {
+    margin: 20px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+}
+
+/* تذييل الصفحة */
+.footer {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-media a {
+    color: #ff6600;
+    margin: 0 5px;
+    text-decoration: none;
+}
